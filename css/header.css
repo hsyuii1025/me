@@ -36,3 +36,62 @@ a{
 .home:hover{
     color: #FFFFF2;
 }
+
+.ham{
+    display: none;
+}
+
+@media(max-width:528px){
+    
+
+    .ham{
+        display: show;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-end;
+        right: 10px;
+        top: 15px;
+    }
+
+    .exit{
+        display: show;
+        position: absolute;
+        z-index: 3;
+        display: flex;
+        justify-content: flex-end;
+        right: 10px;
+        top: 15px;
+    }
+
+    .icon_img{
+        width: 20px;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+    .nav_bar{
+        display: none;
+    }
+
+    .ham_list{
+
+    }
+
+    .ham_list_items{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        letter-spacing: 10px;
+    }
+
+    .ham_list_items:hover{
+        background-color: #170312;
+    }
+    }
+
+}
