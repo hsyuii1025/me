@@ -176,3 +176,132 @@ body{
     letter-spacing: 3px;
     transition-duration: 1s;
 }
+
+@media(max-width:500px){
+    /*hot_zone*/
+.hot_zone{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dot{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 40px;
+}
+
+.subtitle{
+    font-size: 5px;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.arrow{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*row_col*/
+.row{
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.row_reverse{
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.col-lg-7{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    justify-content: center;
+}
+
+.col-lg-5{
+    width: 100%;
+}
+
+.col-l{
+    text-align: l;
+}
+
+.col-r{
+    text-align: right;
+}
+
+.pic{
+    width: 60%;
+}
+
+.first{
+    margin-right: auto;
+}
+
+/*introduction*/
+.introduction{
+
+}
+
+.introduction_title{
+    letter-spacing: 5px;
+    font-family: sans-serif;
+}
+
+.introduction_content{
+    width: 300px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+.introduction_ex{
+    width: 300px;
+    font-weight: 300;
+    opacity: 50%;
+    letter-spacing: 3px;
+}
+
+/*btn*/
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 70px 0px 70px;
+    border: 1px solid #41D3BD;
+    border-radius: 200px 200px 0 0;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 1s;
+}
+
+
+.btn_content{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding: 0px 20px 30px 20px;
+    margin: 0;
+    letter-spacing: 3px;
+    transition-duration: 1s;
+}
+}
